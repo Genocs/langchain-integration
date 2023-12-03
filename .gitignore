@@ -1,32 +1,19 @@
-# Prerequisites
-*.d
+.vs
+.vscode
+data
+__pycache__
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Enviroment variables
+#*.env
 
-# Precompiled Headers
-*.gch
-*.pch
+# Python virtualenvs
+.venv
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Log files
+*.log
 
-# Fortran module files
-*.mod
-*.smod
+# Database files
+*.db
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Chroma db
+.chroma

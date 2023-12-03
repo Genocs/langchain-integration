@@ -1,0 +1,83 @@
+{
+  "messageId": "70270000-c6ee-10e7-8095-08db7fc97c70",
+  "messageType": [
+    "urn:message:Genocs.Fiscanner.Contracts.Notifications:LangChainResponse"
+  ],
+  "message": {
+    "payload": "ciao"
+  }
+}
+
+
+
+{
+  "messageId": "70270000-c6ee-10e7-8095-08db7fc97c70",
+  "requestId": null,
+  "correlationId": null,
+  "conversationId": "78280000-c6ee-10e7-8dac-08db7fd4a8df",
+  "initiatorId": null,
+  "sourceAddress": "rabbitmq://flamingo.rmq.cloudamqp.com/zcoqmbte/HPLNOCCO_GenocsFiscannerWebApi_bus_xywyyygg7aeqxnw5bdpz9irryz?temporary=true",
+  "destinationAddress": "rabbitmq://flamingo.rmq.cloudamqp.com/zcoqmbte/Genocs.Fiscanner.Contracts.LLMs:LLMFoo",
+  "responseAddress": null,
+  "faultAddress": null,
+  "messageType": [
+    "urn:message:Genocs.Fiscanner.Contracts.Notifications:LangChainResponse"
+  ],
+  "message": {
+    "payload": "ciao"
+  },
+  "expirationTime": null,
+  "sentTime": "2023-07-08T16:59:14.3972099Z",
+  "headers": {
+    "MT-Activity-Id": "00-088e29854056e61e7550ef584758fdb1-5845ea278ee68622-01"
+  },
+  "host": {
+    "machineName": "HPL-NOCCO",
+    "processName": "Genocs.Fiscanner.WebApi",
+    "processId": 10360,
+    "assembly": "Genocs.Fiscanner.WebApi",
+    "assemblyVersion": "1.0.0.0",
+    "frameworkVersion": "7.0.5",
+    "massTransitVersion": "8.0.13.0",
+    "operatingSystemVersion": "Microsoft Windows NT 10.0.25393.0"
+  }
+}
+
+{
+  "messageId": "01000000-ac12-0242-acfd-08db74d4c2df",
+  "requestId": null,
+  "correlationId": null,
+  "conversationId": "01000000-ac12-0242-34df-08db74d4c2a5",
+  "initiatorId": null,
+  "sourceAddress": "rabbitmq://rabbitmq/promotion-trigger-received",
+  "destinationAddress": "rabbitmq://flamingo.rmq.cloudamqp.com/zcoqmbte/Genocs.Fiscanner.Contracts.Notifications:RewardProcessed",
+  "responseAddress": null,
+  "faultAddress": null,
+  "messageType": [
+    "urn:message:Genocs.Fiscanner.Contracts.Notifications:RewardProcessed"
+  ],
+  "message": {
+    "memberId": "ZRLZ9U6WZ",
+    "notificationTag": "voucher_issued",
+    "language": "it",
+    "metadata": {
+      "amount": "1200.00",
+      "reward_amount": "200.00"
+    }
+  },
+  "expirationTime": null,
+  "sentTime": "2023-06-24T17:02:15.4384637Z",
+  "headers": {
+    "MT-Activity-Id": "00-26ed89e14e35b6088ba1324214d290a9-10cd0b726f046c03-01"
+  },
+  "host": {
+    "machineName": "fiscanner-webapi",
+    "processName": "Genocs.Fiscanner.WebApi",
+    "processId": 1,
+    "assembly": "Genocs.Fiscanner.WebApi",
+    "assemblyVersion": "1.0.0.0",
+    "frameworkVersion": "7.0.8",
+    "massTransitVersion": "8.0.13.0",
+    "operatingSystemVersion": "Unix 5.15.90.1"
+  }
+}
